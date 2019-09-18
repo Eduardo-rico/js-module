@@ -1,0 +1,2 @@
+# js-module
+js module.
