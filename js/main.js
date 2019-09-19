@@ -33,10 +33,12 @@ console.log(" euros : " + euro + " y en pesos " + pesos);
 
 var radio; //es el radio pues
 var area; //es el area 
-const Pi = 3.1415; // es una constante pue
+const PI = 3.1415; // es una constante pue TODO EL NOMBRE DE LA CONSTANTE DEBE DE SER EN MAYUSCULA; 
 
-area = Pi * radio * radio; //se hae la operacion
 
-console.log("ehhhhhhh esa es el area? " + area + "de un circulo de radio " + radio); //lo imprime pues
+radio = 10; 
+area = PI * radio * radio; //se hae la operacion
+
+console.log("El area " + area + " es de un circulo de radio " + radio); //lo imprime pues
 
 
