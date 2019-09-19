@@ -26,6 +26,17 @@ pesos = solesConvertionFactor * sol;
 euro = pesos / eurosConvertionFactor;
 dolar = pesos / dolaresConvertionFactor; 
 
-console.log(sol + " en " + "dolares en " + dolar + " euros : " + euro + " y en pesos " + pesos);
+console.log(sol + " en " + "dolares en " + dolar);
+console.log(" euros : " + euro + " y en pesos " + pesos);
+
+
+
+var radio; //es el radio pues
+var area; //es el area 
+const Pi = 3.1415; // es una constante pue
+
+area = Pi * radio * radio; //se hae la operacion
+
+console.log("ehhhhhhh esa es el area? " + area + "de un circulo de radio " + radio); //lo imprime pues
 
 
