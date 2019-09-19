@@ -35,10 +35,34 @@ var radio; //es el radio pues
 var area; //es el area 
 const PI = 3.1415; // es una constante pue TODO EL NOMBRE DE LA CONSTANTE DEBE DE SER EN MAYUSCULA; 
 
-
 radio = 10; 
 area = PI * radio * radio; //se hae la operacion
 
 console.log("El area " + area + " es de un circulo de radio " + radio); //lo imprime pues
+
+
+var numeroUno;
+numeroUno = 2;
+if (numeroUno%2 === 0){
+    console.log("es par el numero " + numeroUno)
+
+}else{
+    console.log("el numero " + " es non")
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
